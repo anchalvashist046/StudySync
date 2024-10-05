@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "definition of the schema for topics and subtopics",
+  "$version": "0.1.0",
+  "topics": [
+    {
+       "topicName": "Introduction to Programming",
+       "topicId": 1,
+       "assignmentId": 1,
+
+       "subtopics": [
+         {
+           "subtopicName": "Variables and Data Types",
+           "subtopicId": 1,
+           "quizId": 1
+         }
+       ]
+    }
+  ]
+}

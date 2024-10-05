@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "definition of the schema for quiz",
+  "$version": "0.1.0",
+  "quizDetails":{
+
+    "title": "",
+    "description": "",
+    "questionText":[
+      {
+        "question": "",
+        "options":[
+          {
+            "optionText": "",
+            "flag": ""
+          }
+        ]
+      }
+    ]
+
+   }
+}
