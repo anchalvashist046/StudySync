@@ -48,7 +48,7 @@ public class AssignmentController {
     public ResponseEntity<String> uploadAssignment(@RequestPart("file") MultipartFile file, @PathVariable Long topicId) {
         try {
             // Define the destination folder
-            String uploadDir = "C:/Users/niles/OneDrive/Desktop/"; // Ensure the path exists and is writable
+            String uploadDir = "/C:/Users/vashi/Desktop/Uni/"; // Ensure the path exists and is writable
 
             // Ensure the directory exists before saving
             File directory = new File(uploadDir);
@@ -96,7 +96,7 @@ public class AssignmentController {
                 .orElseThrow(() -> new RuntimeException("Assignment not found"));
 
         // Store the uploaded file
-        String filePath = "/C:/Users/niles/OneDrive/Desktop/" + file.getOriginalFilename();
+        String filePath = "/C:/Users/vashi/Desktop/Uni/" + file.getOriginalFilename();
         file.transferTo(new File(filePath));
 
         // Create a new assignment submission
